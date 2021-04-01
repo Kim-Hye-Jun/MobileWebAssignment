@@ -98,12 +98,8 @@ h2{
   display: inline-block;
 }
 
-#project {
-  
-}
-
 iframe {
-  width: 50%;
+  width: 450px;
   height:  500px;
   position: relative;
   left: auto;
@@ -191,6 +187,9 @@ a:visited { color: white; text-decoration: none;}
   color: darkblue;
 }
 
+#link{
+  background-color: black;
+}
  
  @keyframes move {
 
@@ -217,3 +216,11 @@ a:visited { color: white; text-decoration: none;}
   to   { background-color: blue; }
 }
 
+@media only screen and (min-width:320px) and (max-width:800px)
+{
+  section{
+    color: blueviolet;
+    background-color:khaki;
+    font-style: oblique;
+  }
+}
